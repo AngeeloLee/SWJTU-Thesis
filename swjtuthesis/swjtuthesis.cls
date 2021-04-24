@@ -125,8 +125,8 @@
   \vspace{32ex}
 
   \begin{spacing}{2.0}\songti\large\noindent
-    作者签名：\hspace*{13em} 指导教师签名：\\
-    日期：\qquad 年 \qquad 月 \qquad 日 \hspace*{6em} 日期：\qquad 年 \qquad 月 \qquad 日
+    作者签名：\hspace*{12em} 指导教师签名：\\
+    日期：\qquad 年 \qquad 月 \qquad 日 \hspace*{5em} 日期：\qquad 年 \qquad 月 \qquad 日
   \end{spacing}
 
   \newpage
