@@ -18,6 +18,6 @@
 
 ## 其他
 
-遇到问题可以提[issue](/AngeeloLee/SWJTU-Thesis/issues)，我有时间会回复的（但愿如此）。
+遇到问题可以提 issue，我有时间会回复的（我尽量）。
 
 另外，欢迎小伙伴的加入。
