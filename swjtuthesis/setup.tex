@@ -1,0 +1,65 @@
+% !TeX root = ../paper.tex
+
+% 必须宏包
+\usepackage[a4paper,hmargin=3.2cm,vmargin=2.8cm]{geometry} % 页面设置
+\usepackage{setspace} % 设置距离
+\usepackage{ulem} % 下划线支持
+\usepackage{keyval2e} % 键值对支持
+\usepackage{listofitems} % 逗号列表解析
+\usepackage[sort]{natbib} % bib数据库
+\usepackage{gbt7714} % GB/T7714 格式
+% \usepackage{cite} % 设置参考文献引用
+\usepackage{titlesec,titletoc} % 标题格式化和目录
+\usepackage{hyperref} % 引用支持
+\usepackage{graphicx} % 图片支持
+
+% 非必须宏包
+\usepackage{amssymb,amsmath,amsthm} % 数学支持
+\usepackage{subcaption} % 图片子标题
+\usepackage{mathtools}
+\usepackage{threeparttable}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{algorithm,algorithmic} % 算法
+\usepackage{booktabs}
+\usepackage{upgreek}
+\usepackage{unicode-math}
+\usepackage{siunitx}
+\usepackage{esint}
+
+% 页眉样式
+\newpagestyle{swjtu@frontstyle}{
+  \sethead[][{\heiti 西南交通大学本科毕业设计（论文）}][]{}{{\heiti 西南交通大学本科毕业设计（论文）}}{}
+  \setheadrule{1pt}
+  \setfoot[][第\ \Roman{page} 页][]{}{第\ \Roman{page} 页}{}
+}
+\newpagestyle{swjtu@mainstyle}{
+  \sethead[][{\heiti 西南交通大学本科毕业设计（论文）}][]{}{{\heiti 西南交通大学本科毕业设计（论文）}}{}
+  \setheadrule{1pt}
+  \setfoot[][第\ \arabic{page} 页][]{}{第\ \arabic{page} 页}{}
+}
+\newpagestyle{swjtu@onlyhead}{
+  \sethead[][{\heiti 西南交通大学本科毕业设计（论文）}][]{}{{\heiti 西南交通大学本科毕业设计（论文）}}{}
+  \setheadrule{1pt}
+  \setfoot[][][]{}{}{}
+}
+\pagestyle{empty}
+\setlength{\parindent}{4em}
+
+% 参考文献格式设置
+\bibliographystyle{gbt7714-numerical}
+
+% 目录格式
+\titlecontents{chapter}[4em]{\vspace{1ex}\heiti}
+    {\contentslabel{4em}}{\hspace{-4em}}
+    {\titlerule*[0.25pc]{.}\contentspage}[\vspace{0.5ex}]
+\titlecontents{section}[4em]{\songti}
+    {\contentslabel{2em}}{}
+    {\titlerule*[0.25pc]{.}\contentspage}
+\titlecontents{subsection}[7em]{\songti}
+    {\contentslabel{3em}}{}
+    {\titlerule*[0.25pc]{.}\contentspage}
+
+% 目录标题格式
+\titleformat{\chapter}{\centering\Large\heiti}{}{}{}
+\titlespacing{\chapter}{0cm}{0ex}{2ex}{}

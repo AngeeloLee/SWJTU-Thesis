@@ -1,0 +1,51 @@
+% !TeX encoding = UTF-8
+% !TeX program = xelatex
+% !TeX spellcheck = en_US
+
+\documentclass{swjtuthesis/swjtuthesis}
+% 论文基本配置，加载宏包等全局配置
+\input{swjtuthesis/setup}
+
+% 设置一些信息
+\swjtu{
+  title     = {基于LATEX的本科生论文模板的实现},
+  author    = {偌博特},
+  id        = {2017123456},
+  major     = {人工智能},
+  teacher   = {诶艾},
+  grade     = {2017级},
+  school    = {计算机与人工智能学院},
+  donedate  = {二零二一年五月},
+  class     = {AI2017-01班}
+}
+
+\begin{document}
+
+\maketitle % 生成封面
+\makeliability % 学术诚信声明
+\makecopyright % 版权使用授权书
+\makecomments % 委员会评阅
+
+% 前续
+\frontmatter
+\input{components/taskbook.tex} % 引入任务书
+\blankpage % 若任务书为奇数页则添加空白页
+\input{components/abstract.tex} % 摘要
+\makecontents % 生成目录
+
+% 正文
+\mainmatter
+\input{components/chap01.tex} % 第一章 绪论
+\input{components/chap02.tex} % 第二章 XXX
+\input{components/chap03.tex} % 第三章 XXX
+\input{components/chap04.tex} % 第四章 XXX
+\input{components/conclusion.tex} % 结论
+\input{components/acknowledge.tex} % 致谢
+\addreftocontents % 添加参考文献到目录
+\bibliography{reference/refs.bib} % 参考文献
+
+% 后续
+\backmatter
+\input{components/appendix.tex} % 附录1
+
+\end{document}
