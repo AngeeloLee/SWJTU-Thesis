@@ -88,8 +88,8 @@
   \vspace{20ex}
 
   \begin{spacing}{2.5}\songti\large\noindent
-    \hspace*{16em} 作者签名：\\
-    \hspace*{16em} 日期：\qquad 年 \qquad 月 \qquad 日
+    \hspace*{15em} 作者签名：\\
+    \hspace*{15em} 日期：\qquad 年 \qquad 月 \qquad 日
   \end{spacing}
 
   \newpage
@@ -125,8 +125,8 @@
   \vspace{32ex}
 
   \begin{spacing}{2.0}\songti\large\noindent
-    作者签名：\hspace*{12em} 指导教师签名：\\
-    日期：\qquad 年 \qquad 月 \qquad 日 \hspace*{5em} 日期：\qquad 年 \qquad 月 \qquad 日
+    作者签名：\hspace*{11em} 指导教师签名：\\
+    日期：\qquad 年 \qquad 月 \qquad 日 \hspace*{4em} 日期：\qquad 年 \qquad 月 \qquad 日
   \end{spacing}
 
   \newpage
@@ -140,31 +140,31 @@
   \thispagestyle{swjtu@onlyhead}
   \begin{spacing}{1.5}\noindent
     院系 \makebox[15em][c]{\uline{\hfill \swjtu@school \hfill}} \quad
-    专业 \makebox[15em][c]{\uline{\hfill \swjtu@major \hfill}} \\
+    专业 \makebox[14em][c]{\uline{\hfill \swjtu@major \hfill}} \\
     年级 \makebox[15em][c]{\uline{\hfill \swjtu@grade \hfill}} \quad
-    姓名 \makebox[15em][c]{\uline{\hfill \swjtu@author \hfill}} \\ \\
-    题目 \makebox[33.5em][c]{\uline{\hfill \swjtu@title \hfill}} \\
+    姓名 \makebox[14em][c]{\uline{\hfill \swjtu@author \hfill}} \\ \\
+    题目 \makebox[32.5em][c]{\uline{\hfill \swjtu@title \hfill}} \\
   \end{spacing}
 
   \begin{spacing}{1.8}\noindent
     指导教师 \\
-    评\qquad 语 \makebox[31.5em][c]{\uline{\hfill\quad\hfill}} \\
-    \hspace*{4em} \makebox[31.5em][c]{\uline{\hfill\quad\hfill}} \\
-    \hspace*{4em} \makebox[31.5em][c]{\uline{\hfill\quad\hfill}} \\
-    \hspace*{4em} \makebox[31.5em][c]{\uline{\hfill\quad\hfill}} \\
-    \hspace*{4em} \makebox[31.5em][c]{\uline{\hfill\quad\hfill}} \\
-    \hspace*{4em} \makebox[31.5em][c]{\uline{\hfill\quad\hfill}} \\
+    评\qquad 语 \makebox[30.5em][c]{\uline{\hfill\quad\hfill}} \\
+    \hspace*{4em} \makebox[30.5em][c]{\uline{\hfill\quad\hfill}} \\
+    \hspace*{4em} \makebox[30.5em][c]{\uline{\hfill\quad\hfill}} \\
+    \hspace*{4em} \makebox[30.5em][c]{\uline{\hfill\quad\hfill}} \\
+    \hspace*{4em} \makebox[30.5em][c]{\uline{\hfill\quad\hfill}} \\
+    \hspace*{4em} \makebox[30.5em][c]{\uline{\hfill\quad\hfill}} \\
     \rightline{指导教师 \makebox[8em][c]{\uline{\hfill\quad\hfill}} (签章)}
   \end{spacing}
 
   \begin{spacing}{1.8}\noindent
     评\ 阅\ 人 \\
-    评\qquad 语 \makebox[31.5em][c]{\uline{\hfill\quad\hfill}} \\
-    \hspace*{4em} \makebox[31.5em][c]{\uline{\hfill\quad\hfill}} \\
-    \hspace*{4em} \makebox[31.5em][c]{\uline{\hfill\quad\hfill}} \\
-    \hspace*{4em} \makebox[31.5em][c]{\uline{\hfill\quad\hfill}} \\
-    \hspace*{4em} \makebox[31.5em][c]{\uline{\hfill\quad\hfill}} \\
-    \hspace*{4em} \makebox[31.5em][c]{\uline{\hfill\quad\hfill}} \\
+    评\qquad 语 \makebox[30.5em][c]{\uline{\hfill\quad\hfill}} \\
+    \hspace*{4em} \makebox[30.5em][c]{\uline{\hfill\quad\hfill}} \\
+    \hspace*{4em} \makebox[30.5em][c]{\uline{\hfill\quad\hfill}} \\
+    \hspace*{4em} \makebox[30.5em][c]{\uline{\hfill\quad\hfill}} \\
+    \hspace*{4em} \makebox[30.5em][c]{\uline{\hfill\quad\hfill}} \\
+    \hspace*{4em} \makebox[30.5em][c]{\uline{\hfill\quad\hfill}} \\
     \rightline{评阅人 \makebox[8em][c]{\uline{\hfill\quad\hfill}} (签章)}
   \end{spacing}
 
@@ -186,11 +186,11 @@
     毕业设计（论文）任务书
   \end{center}
   \begin{spacing}{1.5}\noindent
-    班\qquad 级 \makebox[8em][c]{\uline{\hfill \swjtu@class \hfill}} \quad
+    班\qquad 级 \makebox[7.5em][c]{\uline{\hfill \swjtu@class \hfill}} \quad
     学生姓名 \makebox[6em][c]{\uline{\hfill \swjtu@author \hfill}} \quad
-    学\qquad 号 \makebox[7em][c]{\uline{\hfill \swjtu@id \hfill}} \\
+    学\qquad 号 \makebox[6em][c]{\uline{\hfill \swjtu@id \hfill}} \\
     发题日期：\swjtu@task@start \hfill 完成日期：\swjtu@task@end \\
-    题\qquad 目 \makebox[31.5em][c]{\uline{\hfill \swjtu@title \hfill}}
+    题\qquad 目 \makebox[30.5em][c]{\uline{\hfill \swjtu@title \hfill}}
   \end{spacing}
 
   \vspace{2ex}
@@ -230,7 +230,7 @@
   \vspace{2ex}
   \begin{spacing}{1.8}\noindent
     备\qquad 注 \uline{\hfill} \\
-    \makebox[36em][c]{\uline{\hfill\qquad\hfill}}
+    \makebox[34.5em][c]{\uline{\hfill\qquad\hfill}}
   \end{spacing}
 
   \vspace{2ex}
